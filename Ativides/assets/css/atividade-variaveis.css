@@ -1,0 +1,12 @@
+:root {
+    --cor-primaria: #336699;
+    --cor-secundaria: rgb(153, 255, 153)
+}
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+#1{ 
+    background-color: var(--cor-secundaria);
+}

@@ -7,7 +7,7 @@ function exemploString(){
     let nome = "Elias";
     let sobrenome = "Otto com dois t";
 
-    //Alertar o valor da variavel
+    //Alterar o valor da variavel
     sobrenome = "Otto";
 
     //Apresntando a variavel

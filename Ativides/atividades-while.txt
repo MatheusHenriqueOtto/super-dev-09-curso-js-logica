@@ -1,0 +1,28 @@
+/*
+Ex. 1 Criar uma função exercicio01SolicitarDadosMedico, criar um while
+    para solicitar os dados de 5 médicos.
+    Solicitar o nome do médico e seu CRM
+
+No final de todos os médicos, apresentar a mensagem: "Obrigado por 
+    utilizar nosso sistema Hospitalar".
+
+Ex. 2 Criar uma função exercicio02SolicitarDadosPaciente.
+Criar um while para solicitar os dados de 4 pacientes.
+Solicitar o nome do paciente e sua idade.
+Ao final, mostrar na tela a quantidade de pacientes cadastrados.
+
+Ex. 3 Criar uma função exercicio03SomarIdadesPacientes.
+Criar um while para solicitar a idade de 6 pacientes.
+Somar todas as idades informadas.
+Ao final, mostrar a soma total das idades.
+
+Ex. 4 Criar uma função exercicio04CalcularMediaIdades.
+Criar um while para solicitar a idade de 5 pacientes.
+Somar todas as idades e calcular a média.
+Ao final, mostrar a média das idades dos pacientes.
+
+Ex. 5 Criar uma função exercicio05ContarMaioresIdade.
+Criar um while para solicitar o nome e a idade de 7 pacientes.
+Verificar quantos pacientes possuem 18 anos ou mais.
+Ao final, mostrar a quantidade de pacientes maiores de idade.
+

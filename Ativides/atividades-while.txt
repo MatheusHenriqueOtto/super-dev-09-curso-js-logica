@@ -1,28 +1,233 @@
-/*
-Ex. 1 Criar uma função exercicio01SolicitarDadosMedico, criar um while
-    para solicitar os dados de 5 médicos.
-    Solicitar o nome do médico e seu CRM
+Ex. 1
+Criar uma função exercicio01SolicitarDadosMedico.
+Criar um while para solicitar os dados de 5 médicos.
+Solicitar o nome do médico e seu CRM.
+No final de todos os médicos, apresentar a mensagem:
+"Obrigado por utilizar nosso sistema Hospitalar".
 
-No final de todos os médicos, apresentar a mensagem: "Obrigado por 
-    utilizar nosso sistema Hospitalar".
-
-Ex. 2 Criar uma função exercicio02SolicitarDadosPaciente.
+Ex. 2
+Criar uma função exercicio02SolicitarDadosPaciente.
 Criar um while para solicitar os dados de 4 pacientes.
 Solicitar o nome do paciente e sua idade.
 Ao final, mostrar na tela a quantidade de pacientes cadastrados.
 
-Ex. 3 Criar uma função exercicio03SomarIdadesPacientes.
+Ex. 3
+Criar uma função exercicio03SomarIdadesPacientes.
 Criar um while para solicitar a idade de 6 pacientes.
 Somar todas as idades informadas.
 Ao final, mostrar a soma total das idades.
 
-Ex. 4 Criar uma função exercicio04CalcularMediaIdades.
+Ex. 4
+Criar uma função exercicio04CalcularMediaIdades.
 Criar um while para solicitar a idade de 5 pacientes.
 Somar todas as idades e calcular a média.
 Ao final, mostrar a média das idades dos pacientes.
 
-Ex. 5 Criar uma função exercicio05ContarMaioresIdade.
+Ex. 5
+Criar uma função exercicio05ContarMaioresIdade.
 Criar um while para solicitar o nome e a idade de 7 pacientes.
 Verificar quantos pacientes possuem 18 anos ou mais.
 Ao final, mostrar a quantidade de pacientes maiores de idade.
 
+Ex. 6
+Criar uma função exercicio06ValidarCRM.
+Criar um while para solicitar o nome do médico e seu CRM de 5 médicos.
+O CRM não pode estar vazio.
+Caso o usuário deixe o CRM vazio, pedir novamente até informar corretamente.
+Ao final, mostrar a mensagem "Cadastro dos médicos finalizado".
+
+Ex. 7
+Criar uma função exercicio07SolicitarPressaoArterial.
+Criar um while para solicitar a pressão arterial de 6 pacientes.
+Contar quantos pacientes possuem pressão maior que 14.
+Ao final, mostrar a quantidade de pacientes com pressão acima do valor informado.
+
+Ex. 8
+Criar uma função exercicio08MenuContinuarCadastro.
+Criar um while para cadastrar pacientes.
+Solicitar o nome do paciente.
+Após cada cadastro, perguntar se o usuário deseja continuar.
+Enquanto a resposta for "sim", continuar cadastrando.
+Quando a resposta for diferente de "sim", encerrar.
+Ao final, mostrar quantos pacientes foram cadastrados.
+
+Ex. 9
+Criar uma função exercicio09SomarFrequenciaCardiaca.
+Criar um while para solicitar a frequência cardíaca de pacientes.
+O cadastro deve continuar até que o usuário digite 0.
+Somar todos os valores informados, exceto o 0.
+Ao final, mostrar a soma total das frequências cardíacas digitadas.
+
+Ex. 10
+Criar uma função exercicio10MaiorTemperatura.
+Criar um while para solicitar a temperatura de 5 pacientes.
+Verificar qual foi a maior temperatura informada.
+Ao final, mostrar a maior temperatura digitada.
+
+Ex. 11
+Criar uma função exercicio11MenorTemperatura.
+Criar um while para solicitar a temperatura de 5 pacientes.
+Verificar qual foi a menor temperatura informada.
+Ao final, mostrar a menor temperatura digitada.
+
+Ex. 12
+Criar uma função exercicio12ContarSintomas.
+Criar um while para solicitar o nome de 5 pacientes.
+Para cada paciente, perguntar se ele está com febre.
+Contar quantos responderam "sim".
+Ao final, mostrar a quantidade de pacientes com febre.
+
+Ex. 13
+Criar uma função exercicio13SepararPacientesPorIdade.
+Criar um while para solicitar o nome e a idade de 8 pacientes.
+Contar quantos são crianças (idade menor que 12).
+Contar quantos são adolescentes (idade entre 12 e 17).
+Contar quantos são adultos (idade maior ou igual a 18).
+Ao final, mostrar a quantidade em cada grupo.
+
+Ex. 14
+Criar uma função exercicio14ValidarOpcaoMenu.
+Criar um while para exibir um menu com as opções:
+1 - Cadastrar paciente
+2 - Cadastrar médico
+3 - Sair
+Enquanto o usuário não digitar 3, o menu deve continuar aparecendo.
+Se digitar uma opção inválida, mostrar uma mensagem de erro.
+Ao final, mostrar a mensagem "Sistema encerrado".
+
+Ex. 15
+Criar uma função exercicio15RelatorioPacientes.
+Criar um while para solicitar os dados de 5 pacientes.
+Solicitar nome, idade e temperatura.
+Ao final, mostrar:
+a) quantidade de pacientes cadastrados
+b) média das idades
+c) maior temperatura informada
+d) menor temperatura informada
+e) quantidade de pacientes com idade maior ou igual a 60
+
+Ex. 16
+Criar uma função exercicio16SenhaAcessoSistema.
+Criar um while para solicitar uma senha de acesso ao sistema.
+Enquanto a senha digitada for diferente de "hospital123", continuar pedindo.
+Quando a senha estiver correta, mostrar a mensagem:
+"Acesso liberado ao sistema hospitalar".
+
+Ex. 17
+Criar uma função exercicio17CadastroComValidacaoCompleta.
+Criar um while para cadastrar 5 médicos.
+Solicitar nome e CRM.
+O nome não pode estar vazio.
+O CRM não pode estar vazio.
+Caso algum dos dois esteja inválido, pedir novamente os dados do mesmo médico.
+Ao final, mostrar quantos médicos foram cadastrados corretamente.
+
+Ex. 18
+Criar uma função exercicio18RelatorioFinalInternacoes.
+Criar um while para solicitar o nome do paciente e a quantidade de dias internado de 6 pacientes.
+Somar todos os dias de internação.
+Verificar qual paciente ficou mais dias internado.
+Ao final, mostrar:
+a) total de dias de internação
+b) média de dias internados
+c) nome do paciente com maior tempo de internação
+
+Ex. 19
+Criar uma função exercicio19CadastrarPacientesAteLimite.
+Criar um while para cadastrar pacientes até que a soma das idades cadastradas ultrapasse 100.
+Solicitar o nome e a idade de cada paciente.
+Ao final, mostrar:
+a) quantidade de pacientes cadastrados
+b) soma total das idades
+c) mensagem "Limite de idades atingido".
+
+Ex. 20
+Criar uma função exercicio20ValidarIdadePaciente.
+Criar um while para cadastrar 6 pacientes.
+Solicitar nome e idade.
+A idade deve estar entre 0 e 120.
+Enquanto a idade for inválida, solicitar novamente.
+Ao final, mostrar quantos pacientes foram cadastrados com sucesso.
+
+Ex. 21
+Criar uma função exercicio21ContarHomensEMulheres.
+Criar um while para solicitar o nome, idade e sexo de 8 pacientes.
+Considerar apenas as opções "M" e "F" para o sexo.
+Caso o usuário informe outro valor, pedir novamente.
+Ao final, mostrar:
+a) quantidade de pacientes do sexo masculino
+b) quantidade de pacientes do sexo feminino
+c) média de idade de todos os pacientes
+
+Ex. 22
+Criar uma função exercicio22PesquisarPaciente.
+Criar um while para cadastrar o nome de 5 pacientes.
+Depois, solicitar um nome para pesquisa.
+Criar outro while para percorrer os nomes cadastrados e verificar se o paciente existe.
+Ao final, mostrar:
+a) "Paciente encontrado" caso o nome exista
+b) "Paciente não encontrado" caso o nome não exista
+
+Ex. 23
+Criar uma função exercicio23MenuCadastroHospital.
+Criar um while para exibir um menu com as opções:
+1 - Cadastrar paciente
+2 - Cadastrar médico
+3 - Mostrar total de cadastros
+4 - Encerrar
+Enquanto a opção escolhida for diferente de 4, o sistema deve continuar.
+Quando escolher 1, somar um paciente cadastrado.
+Quando escolher 2, somar um médico cadastrado.
+Quando escolher 3, mostrar quantos pacientes e médicos já foram cadastrados.
+Ao final, mostrar "Sistema hospitalar encerrado".
+
+Ex. 24
+Criar uma função exercicio24CalcularFolhaPagamentoMedicos.
+Criar um while para solicitar os dados de 5 médicos.
+Solicitar nome, quantidade de plantões e valor recebido por plantão.
+Calcular o pagamento total de cada médico.
+Ao final, mostrar:
+a) nome e pagamento total de cada médico
+b) soma total da folha de pagamento
+c) maior pagamento encontrado
+
+Ex. 25
+Criar uma função exercicio25RepetirCadastroComErro.
+Criar um while para cadastrar 4 médicos.
+Solicitar nome e CRM.
+Se o nome estiver vazio ou o CRM estiver vazio, mostrar a mensagem "Dados inválidos".
+Enquanto houver erro, repetir o cadastro do mesmo médico.
+Ao final, mostrar a mensagem "Todos os médicos foram cadastrados corretamente".
+
+Ex. 26
+Criar uma função exercicio26ControleLeitosHospital.
+Um hospital possui 10 leitos.
+Criar um while para registrar a ocupação dos leitos.
+Para cada leito, solicitar se ele está "ocupado" ou "livre".
+Contar quantos leitos estão ocupados e quantos estão livres.
+Ao final, mostrar:
+a) total de leitos ocupados
+b) total de leitos livres
+c) porcentagem de ocupação do hospital
+
+Ex. 27
+Criar uma função exercicio27CadastroAteSenhaCorreta.
+Criar um while para solicitar uma senha de administrador.
+Enquanto a senha estiver incorreta, pedir novamente.
+Após digitar a senha correta, permitir cadastrar 3 médicos.
+Para cada médico, solicitar nome e CRM.
+Ao final, mostrar a mensagem "Cadastro autorizado e finalizado com sucesso".
+
+Ex. 28
+Criar uma função exercicio28RelatorioCompletoAtendimento.
+Criar um while para cadastrar 7 pacientes.
+Solicitar nome, idade, temperatura e se o paciente está com dor ("sim" ou "não").
+Ao final, mostrar:
+a) quantidade total de pacientes cadastrados
+b) média das idades
+c) maior temperatura informada
+d) quantidade de pacientes com febre (temperatura maior ou igual a 37.8)
+e) quantidade de pacientes que responderam "sim" para dor
+f) nome do paciente com maior idade
+
+Se quiser, eu gero mais 10 em um nível ainda mais avançado, com vetor, busca, menu e while aninhado.

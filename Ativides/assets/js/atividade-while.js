@@ -3,12 +3,10 @@ function exercicio01SolicitarDadosMedicos() {
     while (indice < 5) {
 
         let nome = prompt("Digite seu nome")
-        let crm = prompt("Dgite qual seu crm")
-
-        alert("Obrigado por utilizar o sistema Hospitalar")
-
+        let crm = parseInt(prompt("Dgite qual seu crm"))
         indice = indice + 1;
     }
+    alert("Obrigado por utilizar o sistema Hospitalar")
 
 }
 
@@ -57,23 +55,34 @@ function exercicio04CalcularMediaIdades() {
     alert("A media de idade dos pascientes é: " + mediaIdades)
 }
 
-function exeercicio05ContadorMaioresIdade(){
+function exeercicio05ContadorMaioresIdade() {
     let indice = 0;
     let nome = "";
     let idade = 0;
     let maioresIdade = 0;
 
-    while (indice < 7){
+    while (indice < 7) {
         nome = prompt("Digite o nome do pasciente")
         idade = parseInt(prompt("Digite a idade"));
-        
-        if (idade > 18){
+
+        if (idade > 18) {
             maioresIdade = maioresIdade + 1;
         }
         indice = indice + 1;
     }
 
     alert(maioresIdade + " pascientes são maiores de idade");
+}
+
+function exercicio06ValidarCRM() {
+    let indice = 0;
+    let nome = "";
+    let crm = 0;
+
+    while (indice < 5) {
+        nome = prompt("Digite seu nome").trim();
+        crm = parseInt(prompt("Digite o seu CRM"));
+    }
 }
 
 

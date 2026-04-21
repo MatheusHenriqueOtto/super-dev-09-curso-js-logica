@@ -65,7 +65,7 @@ function exeercicio05ContadorMaioresIdade() {
         nome = prompt("Digite o nome do pasciente")
         idade = parseInt(prompt("Digite a idade"));
 
-        if (idade > 18) {
+        if (idade >= 18) {
             maioresIdade = maioresIdade + 1;
         }
         indice = indice + 1;
@@ -81,8 +81,71 @@ function exercicio06ValidarCRM() {
 
     while (indice < 5) {
         nome = prompt("Digite seu nome").trim();
-        crm = parseInt(prompt("Digite o seu CRM"));
+        crm = parseInt(prompt("Digite o seu CRM")).trim();
+
+        while (crm === "") {
+            crm = parseInt(prompt("Digite o seu CRM"));
+        }
     }
+    alert("Cadastro de medicos realizados")
+}
+
+function exercicio07SolicitarPressaoArterial() {
+    let indice = 0;
+    let pressaoPasciente = 0;
+    let pascientesHipertensao = 0;
+
+    while (indice < 6) {
+        pressaoPasciente = parseInt(prompt("Digite a pressao arterial do pasciente")).trim()
+
+        if (pressaoPasciente < 1.5) {
+            pascientesHipertensao = pascientesHipertensao + 1
+        }
+
+
+        indice = indice + 1;
+    }
+
+    alert("Tem " + pascientesHipertensao + "com Hipertenção(Pressão acima de 14)")
+}
+
+function exercicio08MenuContinuarCadastro() {
+    let nome = "";
+    let querContinuar = true;
+    let pascienteCadastrados = 0;
+
+    while (querContinuar == true) {
+        nome = prompt("Digite o nome do pasciente");
+        querContinuar = confirm("Quer continuar a cadastrar");
+        pascienteCadastrados = pascienteCadastrados + 1;
+
+    }
+    alert("Obrigado por cadastrar!\n Cadastrados: " + pascienteCadastrados);
+}
+
+function exercicio09SomarFrequenciaCardiaca() {
+    let frequenciaCardiaca = 1;
+    let somaFrequencia = 0;
+
+    while (frequenciaCardiaca > 0) {
+        frequenciaCardiaca = parseInt(prompt("Digite a frequência"));
+        somaFrequencia = frequenciaCardiaca + somaFrequencia;
+    }
+    alert("A soma total da frequencias: " + somaFrequencia);
+}
+
+function exercicio10MaiorTemperatura() {
+    let indice = 0;
+    let pascienteTemperatura = 0;
+    let maiorTemperatura = 0;
+
+    while (indice < 5) {
+        pascienteTemperatura = parseFloat(prompt("Digite a temperatura do pasciente"));
+        if (pascienteTemperatura > maiorTemperatura) {
+            maiorTemperatura = pascienteTemperatura;
+        }
+    }
+    alert("A maior temperatura foi de: " + maiorTemperatura);
 }
 
 

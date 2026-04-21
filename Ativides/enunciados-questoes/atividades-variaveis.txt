@@ -1,0 +1,114 @@
+
+/*
+
+Ex. 1: Criar uma função exercicio01
+    - Criar variável para armazenar o nome do seu personagem favorito
+    - Apresentar o nome do seu personagem favorito
+Ex. 1.1: Modificar a função exercicio01
+    - Criar variável do ano de nascimento
+    - Apresentar o ano de nascimento
+Ex. 1.2: Modificar a função exercicio01
+    - Criar variável para a idade, utilize o ano de nascimento para calcular a idade 
+    - Apresentar a idade
+Ex. 1.3: Modificar a função exercicio01
+    - Criar variável de altura
+    - Apresentar variável de altura
+Ex. 1.4: Modificar a função exercicio01
+    - Criar variável de peso
+    - Apresentar variável de peso
+Ex. 1.5: Modificar a função exercicio01
+    - Criar variável de IMC, calculando (procurar como calcular o IMC)
+    - Apresentar variável de IMC
+Ex. 1.6: Modificar a função exercicio01
+    - Criar variável categoria
+    - Apresentar categoria
+Ex. 1.7: Modificar a função exercicio01
+    - Criar variável de quantidade de jobs
+    - Criar variável de valor por job (R$ 100,00)
+    - Criar uma variável para calcular o salário (jobs * valor por job)
+    - Apresentar as novas variáveis
+Ex. 2. Criar uma função exercicio02
+    - Criar variável para armazenar o nome do aluno
+    - Apresentar o nome do aluno
+Ex. 2.1: Modificar a função exercicio02
+    - Criar variável para armazenar a nota 1 do aluno
+    - Criar variável para armazenar a nota 2 do aluno
+    - Criar variável para armazenar a nota 3 do aluno
+    - Criar variável para armazenar a nota 4 do aluno
+    - Apresentar as variáveis
+Ex. 2.2: Modificar a função exercicio02
+    - Calcular a média do aluno
+    - Apresentar a média do aluno
+
+Ex. 3: Criar uma função exercicio03
+    - Criar variável para armazenar o nome de um produto
+    - Apresentar o nome do produto
+Ex. 3.1: Modificar a função exercicio03
+    - Criar variável para armazenar o preço do produto
+    - Apresentar o preço
+Ex. 3.2: Modificar a função exercicio03
+    - Criar variável para armazenar a quantidade
+    - Apresentar a quantidade
+Ex. 3.3: Modificar a função exercicio03
+    - Criar variável para calcular o valor total (preço * quantidade)
+    - Apresentar o valor total
+Ex. 3.4: Modificar a função exercicio03
+    - Criar variável de desconto (10%)
+    - Calcular valor com desconto
+    - Apresentar valor com desconto
+
+Ex. 4: Criar uma função exercicio04
+    - Criar variável para armazenar o nome de um carro
+    - Apresentar o nome do carro
+Ex. 4.1: Modificar a função exercicio04
+    - Criar variável para armazenar o ano do carro
+    - Apresentar o ano
+Ex. 4.2: Modificar a função exercicio04
+    - Criar variável para armazenar a velocidade máxima
+    - Apresentar a velocidade
+Ex. 4.3: Modificar a função exercicio04
+    - Criar variável para armazenar o tempo de viagem (em horas)
+    - Calcular distância (velocidade * tempo)
+    - Apresentar distância
+
+Ex. 5: Criar uma função exercicio05
+    - Criar variável para armazenar o nome de uma cidade
+    - Apresentar o nome da cidade
+Ex. 5.1: Modificar a função exercicio05
+    - Criar variável para armazenar a população
+    - Apresentar a população
+Ex. 5.2: Modificar a função exercicio05
+    - Criar variável para armazenar a área da cidade
+    - Apresentar a área
+Ex. 5.3: Modificar a função exercicio05
+    - Calcular densidade demográfica (população / área)
+    - Apresentar densidade
+
+Ex. 6: Criar uma função exercicio06
+    - Criar variável para armazenar o nome de um filme
+    - Apresentar o nome do filme
+Ex. 6.1: Modificar a função exercicio06
+    - Criar variável para armazenar a duração do filme
+    - Apresentar a duração
+Ex. 6.2: Modificar a função exercicio06
+    - Criar variável para armazenar a classificação indicativa
+    - Apresentar a classificação
+Ex. 6.3: Modificar a função exercicio06
+    - Criar variável para armazenar a quantidade de vezes assistido
+    - Apresentar a quantidade
+
+Ex. 7: Criar uma função exercicio07
+    - Criar variável para armazenar o nome de um funcionário
+    - Apresentar o nome do funcionário
+Ex. 7.1: Modificar a função exercicio07
+    - Criar variável para armazenar o salário base
+    - Apresentar o salário
+Ex. 7.2: Modificar a função exercicio07
+    - Criar variável para armazenar horas extras
+    - Criar variável de valor por hora extra
+    - Calcular valor total de horas extras
+    - Apresentar resultado
+Ex. 7.3: Modificar a função exercicio07
+    - Calcular salário final (salário base + horas extras)
+    - Apresentar salário final
+*/

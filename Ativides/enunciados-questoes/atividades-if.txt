@@ -1,0 +1,185 @@
+/*
+Ex. 1: Criar função exercicio01, Solicitar nome e idade e apresentar se a pessoa tem mais de 18 anos ou não
+
+Ex. 2: Criar função exercicio02, solicitar número, apresentar se o número é maior que 10 ou não
+
+Ex. 3: Criar função exercicio03, solicitar número, apresentar se o número é zero ou não
+
+Ex. 4: Criar função exercicio04, solicitar número, apresentar se o número é diferente de 8001 ou se é 8001.
+
+Ex. 5: Criar função exercicio05, solicitar dois números inteiros, somar os dois e apresentar se o resultado é positivo.
+
+Ex. 6: Criar função exercicio06, solicitar três números reais (preços), calcular o total, o usuário tem como pagar somente até R$ 100,00, apresentar se ele pode ou não realizar aquela compra.
+
+Ex. 7: Criar função exercicio07, solicitar idade e verificar:
+    * Se for menor que 16 → "Não pode votar"
+    * Se for entre 16 e 17 → "Voto opcional"
+    * Se for 18 ou mais → "Voto obrigatório"
+
+Ex. 8: Criar função exercicio08, solicitar um número e verificar:
+    * Se é positivo, negativo ou zero
+
+Ex. 9: Criar função exercicio09, solicitar dois números e apresentar:
+    * Qual é o maior
+    * Ou se são iguais
+
+Ex. 10: Criar função exercicio10, solicitar um número e verificar:
+    * Se ele está entre 10 e 20 ou não
+
+Ex. 11: Criar função exercicio11, solicitar três números e verificar:
+    * Se todos são positivos
+
+Ex. 12: Criar função exercicio12, solicitar usuário e senha:
+    * Se usuário for "admin" E senha "1234" → "Login correto"
+    * Senão → "Login inválido"
+
+Ex. 13: Criar função exercicio13, solicitar um número e verificar:
+    * Se ele é ímpar (procurar na internet)
+
+Ex. 14: Criar função exercicio14, solicitar salário famíliar e verificar:
+    * Se salário < 2000 → "Baixo"
+    * Entre 2000 e 5000 → "Médio"
+    * Acima de 5000 → "Alto"
+
+Ex. 15: Criar função exercicio15, solicitar temperatura e verificar:
+    * Abaixo de 15 → "Frio"
+    * Entre 15 e 25 → "Agradável"
+    * Acima de 25 → "Quente"
+
+Ex. 16: Criar função exercicio16, solicitar dois números e verificar:
+    * Se um é múltiplo do outro
+
+Ex. 17: Criar função exercicio17, solicitar 3 notas e calcular média:
+    * Média ≥ 7 → "Aprovado"
+    * Média entre 5 e 6.9 → "Recuperação"
+    * Média < 5 → "Reprovado"
+
+Ex. 18: Criar função exercicio18, solicitar idade e renda:
+    * Se a idade for maior ou igual a dezoito anos e a renda for maior ou igual a dois mil reais → "Aprovado para crédito"
+    * Caso contrário → "Não aprovado"
+
+Ex. 19: Criar função exercicio19, solicitar horário (0–23):
+    * 0–11 → "Bom dia"
+    * 12–17 → "Boa tarde"
+    * 18–23 → "Boa noite"
+    * Fora disso → "Hora inválida"
+
+Ex. 20: Criar função exercicio20 que simule uma calculadora simples:
+    * Solicitar dois números
+    * Apresentar um “menu” de operações para o usuário escolher:
+        * 1 → Soma
+        * 2 → Subtração
+        * 3 → Multiplicação
+        * 4 → Divisão
+    * Com base na opção escolhida:
+        * Realizar a operação correspondente
+        * Exibir o resultado
+    * Regras importantes:
+        * Validar se a opção escolhida é válida
+        * No caso de divisão, verificar se o divisor é zero antes de calcular
+
+Ex. 21: Criar função exercicio21, solicitar três números (x, y e z) e apresentar os valores em ordem crescente.
+
+Ex. 22: Criar função exercicio22, solicitar três números:
+    * Apresentar qual é o maior valor entre eles
+
+Ex. 23: Criar função exercicio23, solicitar três números:
+    * Apresentar qual é o menor valor entre eles
+
+Ex. 24: Criar função exercicio24, solicitar três números:
+    * Informar se os valores estão em ordem crescente
+    * Ou em ordem decrescente
+    * Ou sem ordem definida
+
+Ex. 25: Criar função exercicio25, solicitar a idade de uma pessoa:
+    * Classificar em faixas etárias (definir pelo menos quatro categorias)
+
+Ex. 26: Criar função exercicio26, solicitar o valor de uma compra e a forma de pagamento:
+    * Aplicar regras diferentes conforme a forma de pagamento (ex: desconto ou acréscimo)
+    * Apresentar o valor final
+
+Ex. 27: Criar função exercicio27, solicitar dois números:
+    * Informar se os dois são positivos
+    * Ou se os dois são negativos
+    * Ou se há um positivo e um negativo
+
+Ex. 28: Criar função exercicio28, solicitar três notas e a quantidade de faltas:
+    * Avaliar a situação do aluno considerando desempenho e frequência
+
+Ex. 29: Criar função exercicio29, solicitar um número:
+    * Informar se ele é divisível por 2
+    * Se é divisível por 3
+    * Se é divisível por ambos
+    * Ou se não é divisível por nenhum
+
+Ex. 30: Criar função exercicio30, solicitar um ano:
+    * Verificar se ele pode ser considerado bissexto (pesquisar regra)
+
+Ex. 31: Criar função exercicio31, solicitar três valores:
+    * Verificar se é possível formar um triângulo
+    * Caso seja possível, classificar o tipo do triângulo
+
+Ex. 32: Criar função exercicio32, solicitar um número:
+    * Informar se ele está dentro de um intervalo definido (ex: entre 50 e 100)
+    * Ou fora desse intervalo
+
+Ex. 33: Criar função exercicio33, solicitar dois números:
+    * Apresentar a diferença entre eles
+    * Informar se o resultado é positivo, negativo ou zero
+
+Ex. 34: Criar função exercicio34, solicitar três números:
+    * Apresentar a média dos valores
+    * Informar se a média está acima ou abaixo de um valor de referência (definir)
+
+Ex. 35: Criar função exercicio35, solicitar um número:
+    * Informar se ele possui mais de um dígito
+
+Ex. 36: Criar função exercicio36, solicitar um número:
+    * Informar se ele pertence a um conjunto específico (ex: 5, 10, 15, 20)
+
+Ex. 37: Criar função exercicio37, solicitar dois números:
+    * Verificar se eles são iguais
+    * Ou diferentes
+    * Caso sejam diferentes, informar qual é o maior
+
+Ex. 38: Criar função exercicio38, solicitar três números:
+    * Informar se pelo menos um deles é negativo
+
+Ex. 39: Criar função exercicio39, solicitar três números:
+    * Informar se apenas um deles é positivo
+
+Ex. 40: Criar função exercicio40, solicitar dois números:
+    * Verificar se o primeiro valor é múltiplo do segundo
+
+Ex. 41: Criar função exercicio41, solicitar um número:
+    * Informar se ele está dentro de dois intervalos possíveis (definir dois intervalos diferentes)
+
+Ex. 42: Criar função exercicio42, solicitar um número:
+    * Informar se ele não pertence a um determinado intervalo (definir)
+
+Ex. 43: Criar função exercicio43, solicitar três números:
+    * Verificar se todos são diferentes entre si
+
+Ex. 44: Criar função exercicio44, solicitar três números:
+    * Verificar se existem valores repetidos
+
+Ex. 45: Criar função exercicio45, solicitar um valor de compra:
+    * Aplicar desconto apenas se o valor atingir um mínimo definido
+    * Caso contrário, manter o valor original
+
+Ex. 46: Criar função exercicio46, solicitar idade:
+    * Informar se a pessoa pode acessar um conteúdo com restrição de idade (definir regra)
+
+Ex. 47: Criar função exercicio47, solicitar um número:
+    * Informar se ele é divisível por 5 ou por 10
+
+Ex. 48: Criar função exercicio48, solicitar dois números:
+    * Informar se ambos estão dentro de um intervalo definido
+
+Ex. 49: Criar função exercicio49, solicitar três números:
+    * Informar se a soma de dois deles é maior que o terceiro
+
+Ex. 50: Criar função exercicio50, solicitar um número:
+    * Informar se ele é positivo e par ao mesmo tempo
+    * Ou se não atende a essas duas condições
+*/

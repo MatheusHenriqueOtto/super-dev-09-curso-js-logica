@@ -1,0 +1,92 @@
+/*
+ Instrução geral: para cada exercício, crie uma função com o nome indicado no enunciado.
+ 1. Função: contarLetrasNome
+    Mostrar a quantidade de letras de um nome.
+    Peça ao usuário para digitar um nome.
+    Mostre na tela quantos caracteres esse nome possui.
+
+ 2. Função: converterParaMaiusculas
+    Converter uma frase para letras maiúsculas.
+    Peça ao usuário para digitar uma frase.
+    Exiba a frase totalmente em letras maiúsculas.
+
+ 3. Função: converterParaMinusculas
+    Converter uma frase para letras minúsculas.
+    Peça ao usuário para digitar uma frase.
+    Exiba a frase totalmente em letras minúsculas.
+
+ 4. Função: mostrarPrimeiraLetra
+    Mostrar a primeira letra de uma palavra.
+    Peça ao usuário para digitar uma palavra.
+    Mostre apenas a primeira letra dessa palavra.
+
+ 5. Função: mostrarUltimaLetra
+    Mostrar a última letra de uma palavra.
+    Peça ao usuário para digitar uma palavra.
+    Mostre apenas a última letra dessa palavra.
+
+ 6. Função: verificarPalavraNaFrase
+    Verificar se uma frase contém uma palavra específica.
+    Peça ao usuário para digitar uma frase.
+    Depois peça outra palavra.
+    Verifique se essa palavra aparece dentro da frase.
+    Exemplo: frase = "Eu gosto de estudar JavaScript"
+    palavra = "estudar"
+
+ 7. Função: substituirCorNaFrase
+    Substituir uma palavra por outra.
+    Peça ao usuário para digitar uma frase.
+    Depois faça a substituição de:
+    "azul" por "vermelho"
+    Exiba a frase com a troca feita.
+    Exemplo: "O carro é azul" → "O carro é vermelho"
+
+ 8. Função: trocarEstacao
+    Trocar uma palavra específica em uma frase.
+    Use a frase: "Eu gosto de verão"
+    Substitua "verão" por "inverno"
+    Mostre o resultado final.
+
+ 9. Função: mostrarQuatroPrimeirosCaracteres
+    Mostrar os 4 primeiros caracteres de uma palavra.
+    Peça ao usuário para digitar uma palavra.
+    Exiba apenas os 4 primeiros caracteres dela.
+
+ 10. Função: separarNomeCompleto
+     Separar um nome completo.
+     Peça ao usuário para digitar um nome completo.
+     Separe o texto usando o espaço como divisor.
+     Exemplo: "Ana Maria Souza"
+     Mostrar cada parte separadamente.
+
+ 11. Função: removerEspacosExtras
+     Remover espaços no início e no fim.
+     Use o texto: "   JavaScript   "
+     Remova os espaços antes e depois da palavra.
+     Mostre o resultado final.
+
+ 12. Função: repetirPalavraTresVezes
+     Repetir uma palavra 3 vezes.
+     Peça ao usuário para digitar uma palavra.
+     Exiba essa palavra repetida 3 vezes.
+     Exemplo: "Oi" → "OiOiOi"
+     Procurar por método que permite repetir.
+
+ 13. Função: encontrarPosicaoPalavra
+     Encontrar a posição de uma palavra.
+     Use a frase: "Eu estudo JavaScript todos os dias"
+     Mostre em que posição começa a palavra "JavaScript".
+
+ 14. Função: verificarInicioEFim
+     Verificar como a palavra começa e termina.
+     Peça ao usuário para digitar uma palavra.
+     Verifique se ela:
+     - começa com a letra "a"
+     - termina com a letra "o"
+
+ 15. Função: trocarDominioEmail
+     Trocar domínio de e-mail.
+     Peça ao usuário para digitar um e-mail.
+     Substitua "@gmail.com" por "@hotmail.com"
+     Exemplo: "aluno@gmail.com" → "aluno@hotmail.com"
+*/

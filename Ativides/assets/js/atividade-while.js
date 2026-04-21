@@ -148,4 +148,3 @@ function exercicio10MaiorTemperatura() {
     alert("A maior temperatura foi de: " + maiorTemperatura);
 }
 
-

@@ -240,26 +240,120 @@ function exercicio26MaiorEMenorNumero() {
 
 function exercicio27SomarIdadesMaioresDeIdade() {
     let somaIdades = 0;
-    for (let indice = 0; indice < 5; indice += 1){
+    for (let indice = 0; indice < 5; indice += 1) {
         let nome = prompt("Digite o nome: "), idade = parseInt(prompt("Digite a idade: "));
-        if (idade >= 18){
+        if (idade >= 18) {
             somaIdades = somaIdades + idade;
         }
     }
     console.log("Soma das idades das pessoas que são de maiores de idade: " + somaIdades);
 }
 
-function exercicio28ContarHomensEMulheres(){
+function exercicio28ContarHomensEMulheres() {
     let quantidadeMasculino = 0, quantidadeFeminino = 0;
-    for (let indice = 0; indice < 6; indice += 1){
+    for (let indice = 0; indice < 6; indice += 1) {
         let nome = prompt("Digite o nome: "), genero = prompt("Digite seu genero [ M | F ]");
-        if (genero.toUpperCase() === "M"){
+        if (genero.toUpperCase() === "M") {
             quantidadeMasculino = quantidadeMasculino + 1;
-        } else if (genero.toUpperCase() === "F"){
+        } else if (genero.toUpperCase() === "F") {
             quantidadeFeminino = quantidadeFeminino + 1;
         }
     }
     console.log("Quantidade de homens: " + quantidadeMasculino + "\nQuantidade de mulheres: " + quantidadeFeminino)
 }
 
+function exercicio29ValidarNota() {
+    somaNotas = 0;
+    for (let indice = 0; indice < 5; indice += 1) {
+        let nota = parseFloat(prompt("Digite a nota: "));
+        while ((nota < 0) || (nota > 10)) {
+            nota = parseFloat(prompt("Você digitou um valor invalido o numero tem que estar entre 0 e 10\nDigite a nota novamente: "));
+        }
+        somaNotas = somaNotas + nota;
+    }
+    mediaNotas = somaNotas / 5;
+    console.log("A media das cinco notas foi: " + mediaNotas);
+}
 
+function exercicio30TabuadasCompletas() {
+    for (let indice = 0; indice < 5; indice += 1) {
+        let multiplicador = indice + 1;
+        console.log("\n----------------------TBUADA DO " + multiplicador + "------------------------------------------")
+        for (let multiplicando = 0; multiplicando <= 10; multiplicando += 1) {
+            let produto = multiplicando * multiplicador;
+            console.log(multiplicador + " x " + multiplicando + "= " + produto);
+        }
+    }
+}
+
+function exercicio31ContarAprovadosReprovados() {
+    let quantidadeAprovados = 0, quantidadesReprovados = 0;
+    for (let indice = 0; indice < 6; indice += 1) {
+        let nota = parseFloat(prompt("Digite a nota: "));
+        if (nota >= 7) {
+            quantidadeAprovados = quantidadeAprovados + 1;
+        } else if (nota < 7) {
+            quantidadesReprovados = quantidadesReprovados + 1;
+        }
+    }
+    console.log("Alunos reprovados: " + quantidadesReprovados + "\nAlunos aprovados: " + quantidadeAprovados);
+}
+
+function exercicio32SomarValoresPositivos() {
+    let somaPositivos = 0;
+    for (let indice = 0; indice < 8; indice += 1) {
+        numero = parseFloat(prompt("Digite um numero: "));
+        if (numero > 0) {
+            somaPositivos = somaPositivos + numero;
+        }
+    }
+    console.log("A Soma dos valores positivos é: " + somaPositivos);
+}
+
+function exercicio33EncontrarNomeMaisLongo() {
+    let nomeMaior = "A";
+    for (let indice = 0; indice < 5; indice += 1) {
+        let nome = prompt("Digite o nome: ");
+        if (nome.length > nomeMaior.length) {
+            nomeMaior = nome;
+        }
+    }
+    console.log("O nome maior digitado foi: " + nomeMaior);
+}
+
+function exercicio34CalcularFatorial() {
+    debugger
+    let numero = parseInt(prompt("Digite um numero: "));
+    let multiplicacao = numero;
+    for (let multiplicador = (numero - 1); ((multiplicador < numero) && (multiplicador > 0)); multiplicador = multiplicador - 1) {
+        multiplicacao = (multiplicacao * multiplicador);
+    }
+    console.log(multiplicacao)
+}
+
+function exercicio35ContagemRegressivaPersonalizada(){
+    for (let numero = parseInt(prompt("Digite o numero de partida: ")); numero >=0 ; numero -= 1){
+        console.log(numero);
+    }
+    console.log("FIM DA CONTAGEM");
+}
+
+function exercicio36PesquisarNumero(){
+    let listaNumeros = [];
+    for (let indice = 0; indice < 6; indice += 1){
+        let numero = parseInt(prompt("Digite um numero: "));
+        listaNumeros.push(numero);
+    }
+    let numeroPesquisa = parseInt(prompt("Digite um numero para pesquisa: "));
+    for (let indice = 0; indice < listaNumeros.length; indice += 1){
+        if (numeroPesquisa === listaNumeros[indice]){
+            console.log("Numero encontrado");
+        }else {
+            console.log("Numero não encontrado")
+        }
+    }
+}
+
+function exercicio37CadastrarNomesEVetor(){
+
+}

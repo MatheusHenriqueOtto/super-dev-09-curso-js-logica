@@ -1,0 +1,114 @@
+/*
+1. Criar uma função exercicio01
+    Criar um vetor de perfumes
+    Adicionar 4 perfumes
+    Apresentar os 4 perfumes
+    Alterar o nome do Segundo perfume 
+    Adicionar 1 perfume
+    Apagar o primeiro perfume
+    Apresentar os perfumes
+
+2. Criar uma função exercicio02 (n pedir para usuário)
+    Criar um vetor de materias (string)
+    Criar um vetor de cargaHoraria (int)
+    Criar um vetor de valoresHora (float)
+
+    Adicionar 3 matérias preenchendo para cada matéria os dados de cada vetor
+    Ex.: "Geografia", 100, R$ 20.20
+    materias.push("Geografia");
+    // ..... 
+
+    Apresentar todas os dados dos vetores
+    Alterar o nome da segunda Matéria
+    Alterar a carga horária da primeira matéria
+    Apresentar todas os dados dos vetores
+
+3. Criar uma função exercicio03
+    Criar um vetor de destinosTuristicos
+    Solicitar para o usuário o nome de 4 destinos turísticos
+    Adicionar os 4 destinos no vetor
+    Apresentar todos os destinos turísticos
+    Solicitar para o usuário um novo nome para o segundo destino
+    Alterar o segundo destino turístico
+    Solicitar para o usuário mais 1 destino turístico
+    Adicionar o novo destino no vetor
+    Apagar o primeiro destino turístico
+    Apresentar todos os destinos turísticos
+
+4. Criar uma função exercicio04
+    Criar um vetor de restaurantes
+    Criar um vetor de cidades
+    Criar um vetor de valoresMedios
+
+    Solicitar para o usuário os dados de 3 restaurantes
+    Para cada restaurante solicitar:
+        Nome do restaurante
+        Cidade onde fica localizado
+        Valor médio gasto por pessoa
+
+    Adicionar os dados nos vetores
+    Apresentar todos os dados dos restaurantes
+    Solicitar para o usuário um novo nome para o primeiro restaurante
+    Alterar o nome do primeiro restaurante
+    Solicitar para o usuário um novo valor médio para o terceiro restaurante
+    Alterar o valor médio do terceiro restaurante
+    Apresentar todos os dados dos restaurantes
+
+5. Criar uma função exercicio05
+    Criar um vetor de filmes
+    Criar um vetor de generos
+    Criar um vetor de duracoes
+    Criar um vetor de duracoesHoras
+
+    Solicitar para o usuário os dados de 4 filmes
+    Para cada filme solicitar:
+        Nome do filme
+        Gênero do filme
+        Duração em minutos
+
+    Adicionar os dados nos vetores
+    Calcular a duração do filme em horas
+    Armazenar a duração em horas no vetor duracoesHoras
+
+    Apresentar todos os dados dos filmes, incluindo a duração em minutos e em horas
+    Solicitar para o usuário um novo gênero para o segundo filme
+    Alterar o gênero do segundo filme
+    Solicitar para o usuário uma nova duração para o primeiro filme
+    Alterar a duração do primeiro filme
+    Calcular novamente a duração em horas do primeiro filme
+    Alterar a duração em horas do primeiro filme no vetor duracoesHoras
+    Apagar o último filme de todos os vetores
+    Apresentar todos os dados dos filmes
+
+6. Criar uma função exercicio06
+    Criar um vetor de produtos
+    Criar um vetor de quantidades
+    Criar um vetor de precos
+    Criar um vetor de valoresTotais
+
+    Solicitar para o usuário os dados de 3 produtos de supermercado
+    Para cada produto solicitar:
+        Nome do produto
+        Quantidade comprada
+        Preço unitário
+
+    Adicionar os dados nos vetores
+    Calcular o valor total de cada produto
+    Armazenar o valor total no vetor valoresTotais
+
+    Apresentar todos os dados dos produtos, incluindo quantidade, preço unitário e valor total
+    Solicitar para o usuário o nome de mais 1 produto
+    Solicitar para o usuário a quantidade desse produto
+    Solicitar para o usuário o preço unitário desse produto
+    Adicionar o novo produto nos vetores
+    Calcular o valor total do novo produto
+    Armazenar o valor total no vetor valoresTotais
+
+    Solicitar para o usuário um novo preço para o segundo produto
+    Alterar o preço do segundo produto
+    Calcular novamente o valor total do segundo produto
+    Alterar o valor total do segundo produto no vetor valoresTotais
+
+    Apagar o primeiro produto de todos os vetores
+    Apresentar todos os dados dos produtos
+*/

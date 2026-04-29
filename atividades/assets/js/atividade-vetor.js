@@ -116,28 +116,94 @@ function exercicio05() {
     filmes.push(prompt("Digite o filme: "));
     generos.push(prompt("Digite o genero do filme: "));
     duracoesMinutos.push(parseFloat(prompt("Digite a duração do filme(em minutos): ")));
-    duracoesHoras.push((duracoesHoras[0]) / 60);
+    duracoesHoras.push((duracoesMinutos[0]) / 60);
 
     filmes.push(prompt("Digite o filme: "));
     generos.push(prompt("Digite o genero do filme: "));
     duracoesMinutos.push(parseFloat(prompt("Digite a duração do filme(em minutos): ")));
-    duracoesHoras.push((duracoesHoras[1]) / 60);
+    duracoesHoras.push((duracoesMinutos[1]) / 60);
 
     filmes.push(prompt("Digite o filme: "));
     generos.push(prompt("Digite o genero do filme: "));
     duracoesMinutos.push(parseFloat(prompt("Digite a duração do filme(em minutos): ")));
-    duracoesHoras.push((duracoesHoras[2]) / 60);
+    duracoesHoras.push((duracoesMinutos[2]) / 60);
 
     filmes.push(prompt("Digite o filme: "));
     generos.push(prompt("Digite o genero do filme: "));
     duracoesMinutos.push(parseFloat(prompt("Digite a duração do filme(em minutos): ")));
-    duracoesHoras.push((duracoesHoras[3]) / 60);
+    duracoesHoras.push((duracoesMinutos[3]) / 60);
 
+    console.log(
+        "Dados dos filmes: \nfilme 1: " + filmes[0] + "\nGenero do filme: " + generos[0] + "\nDuração em minutos: " + duracoesMinutos[0] + "\nDuração em horas: " + duracoesHoras[0] +
+        "\n\nfilme 2: " + filmes[1] + "\nGenero do filme: " + generos[1] + "\nDuração em minutos: " + duracoesMinutos[1] + "\nDuração em horas: " + duracoesHoras[1] +
+        "\n\nfilme 3: " + filmes[2] + "\nGenero do filme: " + generos[2] + "\nDuração em minutos: " + duracoesMinutos[2] + "\nDuração em horas: " + duracoesHoras[2] +
+        "\n\nfilme 4: " + filmes[3] + "\nGenero do filme: " + generos[3] + "\nDuração em minutos: " + duracoesMinutos[3] + "\nDuração em horas: " + duracoesHoras[3]
+    );
 
+    generos[1] = prompt("Digite um novo genero para o filme: " + filmes[1]);
 
+    duracoesMinutos[0] = prompt("Digite uma nova duração para o filme: " + filmes[0]);
+    duracoesHoras[0] = duracoesMinutos[0] / 60;
 
+    filmes.splice(3, 1);
+    generos.splice(3, 1);
+    duracoesMinutos.splice(3, 1);
+    duracoesHoras.splice(3, 1);
+
+    console.log(
+        "Dados dos filmes Atualizados: \nfilme 1: " + filmes[0] + "\nGenero do filme: " + generos[0] + "\nDuração em minutos: " + duracoesMinutos[0] + "\nDuração em horas: " + duracoesHoras[0] +
+        "\n\nfilme 2: " + filmes[1] + "\nGenero do filme: " + generos[1] + "\nDuração em minutos: " + duracoesMinutos[1] + "\nDuração em horas: " + duracoesHoras[1] +
+        "\n\nfilme 3: " + filmes[2] + "\nGenero do filme: " + generos[2] + "\nDuração em minutos: " + duracoesMinutos[2] + "\nDuração em horas: " + duracoesHoras[2]
+    )
 }
 
+function exercicio06() {
+    let produtos = [];
+    let quantidades = [];
+    let precos = [];
+    let valoresTotais = [];
+
+    produtos.push(prompt("Digite um produto: "));
+    quantidades.push(prompt("Digite a quantidade da compra desse produto: "));
+    precos.push(prompt("Digite o peço unitario do produto da compra: "));
+    valoresTotais.push(preco[0] * quantidades[0]);
+
+    produtos.push(prompt("Digite um produto: "));
+    quantidades.push(prompt("Digite a quantidade da compra desse produto: "));
+    precos.push(prompt("Digite o peço unitario do produto da compra: "));
+    valoresTotais.push(preco[1] * quantidades[1]);
+
+    produtos.push(prompt("Digite um produto: "));
+    quantidades.push(prompt("Digite a quantidade da compra desse produto: "));
+    precos.push(prompt("Digite o peço unitario do produto da compra: "));
+    valoresTotais.push(preco[2] * quantidades[2]);
+
+    console.log(
+        "Status do carrinho: \n\nProduto: " + produtos[0] + "\nQuantidade: " + quantidades[0] + "\nPreço unitário: " + precos[0] + "\nPreço total: " + valoresTotais[0] +
+        "\n\nProduto: " + produtos[1] + "\nQuantidade: " + quantidades[1] + "\nPreço unitário: " + precos[1] + "\nPreço total: " + valoresTotais[1] +
+        "\n\nProduto: " + produtos[2] + "\nQuantidade: " + quantidades[2] + "\nPreço unitário: " + precos[2] + "\nPreço total: " + valoresTotais[2]
+    );
+
+    produtos.push(prompt("Digite mais um produto: "));
+    quantidades.push(prompt("Digite a quantidade da compra desse produto: "));
+    precos.push(prompt("Digite o peço unitario do produto da compra: "));
+    valoresTotais.push(preco[3] * quantidades[3]);
+
+    precos[1] = prompt("Digite um novo valor para o produto: " + produtos[1]);
+    valoresTotais[1] = precos[1] * quantidades[1];
+
+    produtos.splice(0, 1);
+    quantidades.splice(0, 1);
+    precos.splice(0, 1);
+    valoresTotais.splice(0, 1);
+
+    console.log(
+        "Status do carrinho atualizado: \n\nProduto: " + produtos[0] + "\nQuantidade: " + quantidades[0] + "\nPreço unitário: " + precos[0] + "\nPreço total: " + valoresTotais[0] +
+        "\n\nProduto: " + produtos[1] + "\nQuantidade: " + quantidades[1] + "\nPreço unitário: " + precos[1] + "\nPreço total: " + valoresTotais[1] +
+        "\n\nProduto: " + produtos[2] + "\nQuantidade: " + quantidades[2] + "\nPreço unitário: " + precos[2] + "\nPreço total: " + valoresTotais[2]
+    );
+
+}
 
 
 

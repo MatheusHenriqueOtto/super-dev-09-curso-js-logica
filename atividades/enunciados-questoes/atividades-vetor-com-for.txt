@@ -1,0 +1,74 @@
+/*
+1. Criar uma função exercicio01
+   Criar um vetor de nomes
+   Solicitar para o usuário 3 nomes
+   Adicionar os 3 nomes no vetor
+   Utilizar um for para apresentar todos os nomes
+
+2. Criar uma função exercicio02
+   Criar um vetor de idades
+   Solicitar para o usuário 4 idades
+   Adicionar as 4 idades no vetor
+   Utilizar um for para apresentar todas as idades
+
+3. Criar uma função exercicio03
+   Criar um vetor de cidades
+   Solicitar para o usuário 5 cidades
+   Adicionar as 5 cidades no vetor
+   Utilizar um for para apresentar todas as cidades
+   Ao final, mostrar a quantidade de cidades cadastradas
+
+4. Criar uma função exercicio04
+   Criar um vetor de números
+   Solicitar para o usuário 5 números
+   Adicionar os 5 números no vetor
+   Utilizar um for para somar todos os números do vetor
+   Ao final, mostrar a soma total
+
+5. Criar uma função exercicio05
+   Criar um vetor de notas
+   Solicitar para o usuário 4 notas
+   Adicionar as 4 notas no vetor
+   Utilizar um for para somar todas as notas
+   Ao final, calcular e mostrar a média
+
+6. Criar uma função exercicio06
+   Criar um vetor de produtos
+   Solicitar para o usuário 4 produtos
+   Adicionar os 4 produtos no vetor
+   Utilizar um for para apresentar todos os produtos
+   Solicitar para o usuário um novo nome para o terceiro produto
+   Alterar o terceiro produto
+   Utilizar um for para apresentar novamente todos os produtos
+
+7. Criar uma função exercicio07
+   Criar um vetor de temperaturas
+   Solicitar para o usuário 5 temperaturas
+   Adicionar as 5 temperaturas no vetor
+   Utilizar um for para descobrir a maior temperatura
+   Ao final, mostrar a maior temperatura informada
+
+8. Criar uma função exercicio08
+   Criar um vetor de preços
+   Solicitar para o usuário 4 preços
+   Adicionar os 4 preços no vetor
+   Utilizar um for para descobrir o menor preço
+   Ao final, mostrar o menor preço informado
+
+9. Criar uma função exercicio09
+   Criar um vetor de números
+   Solicitar para o usuário 6 números
+   Adicionar os 6 números no vetor
+   Utilizar um for para contar quantos números são pares
+   Ao final, mostrar a quantidade de números pares
+
+10. Criar uma função exercicio10
+    Criar um vetor de alunos
+    Solicitar para o usuário 5 nomes de alunos
+    Adicionar os 5 nomes no vetor
+    Solicitar para o usuário um nome para pesquisa
+    Utilizar um for para percorrer o vetor e verificar se o nome existe
+    Ao final, mostrar:
+    a) "Aluno encontrado" caso o nome exista
+    b) "Aluno não encontrado" caso o nome não exista
+*/
